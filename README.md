@@ -1,0 +1,2 @@
+# PngCompresser
+Optimize PNG Images
