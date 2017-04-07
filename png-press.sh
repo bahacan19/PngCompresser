@@ -29,7 +29,7 @@ if ! type  zopflipng>/dev/null 2>&1; then
     make zopflipng
     directory=${PWD}
 
-        if grep -q '\nexport PATH="'${directory}':$PATH"' ~/.bash_profile; ##note the space after the string you are searching for
+        if grep -q 'export PATH="'${directory}':$PATH"' ~/.bash_profile; ##note the space after the string you are searching for
           then
         echo "zopflipng is available on path"
         else
